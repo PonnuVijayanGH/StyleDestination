@@ -1,7 +1,7 @@
 angular.module('sd-app.regionController', [])
 
-.controllers('RegionController', function($scope) {
-	$scope.doSomething() {
+.controller('RegionController', function($scope) {
+	$scope.doSomething = function() {
 		alert(1);
-	}
+	};
 });

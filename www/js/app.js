@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 'use strict';
-angular.module('sd-app', ['ionic', 'sd-app.router'/*, 'sd-app.regionController'*/])
+angular.module('sd-app', ['ionic', 'sd-app.router', 'sd-app.regionController', 'sd-app.localityController', 'sd-app.specialityController', 'sd-app.resultsController', 'sd-app.editsearchController', 'sd-app.servicedetailController'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
