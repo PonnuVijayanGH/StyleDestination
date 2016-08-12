@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 'use strict';
-angular.module('sd-app', ['ionic', 'sd-app.router', 'sd-app.regionController', 'sd-app.localityController', 'sd-app.specialityController', 'sd-app.resultsController', 'sd-app.editsearchController', 'sd-app.servicedetailController'])
+angular.module('sd-app', ['ionic','ionic.service.core', 'sd-app.router', 'sd-app.regionController', 'sd-app.localityController', 'sd-app.specialityController', 'sd-app.resultsController', 'sd-app.editsearchController', 'sd-app.servicedetailController'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -23,40 +23,3 @@ angular.module('sd-app', ['ionic', 'sd-app.router', 'sd-app.regionController', '
     }
   });
 });
-/*.config(require('./router'));*/
-
-/*.config(function($stateProvider,$urlRouterProvider) {
-  $stateProvider
-
-  .state('region', {
-    url: '/region',
-    templateUrl: 'js/modules/region/template/region.html',
-    controller: 'RegionController'
-  })
-
-  .state('locality', {
-    url: '/locality',
-    templateUrl: 'modules/locality/template/locality.html',
-    controller: 'LocalityController'
-  })
-
-  .state('results', {
-    url: '/results',
-    templateUrl: 'modules/results/template/results.html',
-    controller: 'ResultsController'
-  })
-
-  .state('editsearch', {
-    url: '/editsearch',
-    templateUrl: 'modules/editsearch/template/editsearch.html',
-    controller: 'EditSrchController'
-  })
-
-  .state('servicedetail', {
-    url: '/servicedetail',
-    templateUrl: 'modules/servicedetail/template/servicedetail.html',
-    controller: 'ServiceDetailController'
-  });
-
-  $urlRouterProvider.otherwise('/region');
-});*/
