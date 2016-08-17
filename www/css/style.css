@@ -1,1 +1,72 @@
 /* Empty. Add your own CSS if you like */
+.hbar {
+	background-color: #126bb3;
+	color: #fff;
+}
+
+.bar.bar-positive {
+    background-color: #126bb3;
+    border-color: #ffffff;
+    background-image: linear-gradient(0deg, #126bb3, #126bb3 50%, transparent 50%);
+}
+.bar.bar-positive.bar-footer {
+  background-image: linear-gradient(180deg, #126bb3, #126bb3 50%, transparent 50%); 
+}
+
+.srchbg {
+	background: #126bb3; /* Old browsers */
+	/* IE10+ */ 
+	background-image: -ms-linear-gradient(top, #126BB3 0%, #049EDD 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #126BB3 0%, #049EDD 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #126BB3 0%, #049EDD 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #126BB3), color-stop(100, #049EDD));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #126BB3 0%, #049EDD 100%);
+
+	/* W3C Markup */ 
+	background-image: linear-gradient(to bottom, #126BB3 0%, #049EDD 100%);
+
+	color: #fff;
+}
+
+.introp {
+	margin-top: 45%;
+}
+
+.logo_img {
+	margin: 5% auto;
+}
+
+.centercell {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.button-rounded {
+	background-color: #126bb3;
+    border: 2px solid white;
+    border-radius: 50%;
+    clear: both;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 60px;
+}
+
+.input-margin {
+	margin: 10% 10%;
+}

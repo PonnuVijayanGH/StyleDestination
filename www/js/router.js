@@ -1,7 +1,18 @@
 angular.module('sd-app.router', [])
 
-.config(function($stateProvider,$urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+
+	$ionicConfigProvider.backButton.previousTitleText(false);
+	$ionicConfigProvider.backButton.icon('ion-chevron-left');
+  	$ionicConfigProvider.backButton.text('');
+  	$ionicConfigProvider.scrolling.jsScrolling(true);
+
 	$stateProvider
+
+	.state('intro', {
+		url: '/intro',
+		templateUrl: 'js/modules/intro/intro.html'
+	})
 
 	.state('region', {
 		url: '/region',
@@ -39,5 +50,5 @@ angular.module('sd-app.router', [])
 		controller: 'ServiceDetailController'
 	});
 
-	$urlRouterProvider.otherwise('/region');
+	$urlRouterProvider.otherwise('/intro');
 });
