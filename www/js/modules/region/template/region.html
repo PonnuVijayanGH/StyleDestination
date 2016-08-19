@@ -2,9 +2,9 @@
   <ion-content class="srchbg">
   	<div class="centercell">
 		<p class="introp">Enter a region where you are looking for your style destination</p>
-		<label class="item item-input input-margin">
-			<input type="text" placeholder="Region">
-		</label>
+		<div id="selectBox" ng-controller="RegionController">
+			 <ion-select label="Placa do Veículo" label-field="region" provider="regionsList"  ng-model="region"/>
+		</div>
 		<div style="width:100%;">
 			<button class="button icon ion-chevron-right button-rounded" ui-sref="locality"></button>
 		</div>

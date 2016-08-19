@@ -1,1 +1,2 @@
-angular.module('region',[]);
+angular.module('sd-app.region', []);
+

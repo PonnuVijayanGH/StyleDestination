@@ -1,4 +1,4 @@
-angular.module('sd-app.localityController', [])
+angular.module('sd-app.locality')
 
 .controller('LocalityController', function($scope) {
 	$scope.doSomething = function() {
