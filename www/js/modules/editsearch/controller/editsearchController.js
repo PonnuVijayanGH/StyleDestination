@@ -1,4 +1,4 @@
-angular.module('sd-app.editsearchController', [])
+angular.module('sd-app.editsearch')
 
 .controller('EditSrchController', function($scope) {
 	$scope.doSomething = function() {

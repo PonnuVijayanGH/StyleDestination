@@ -71,8 +71,14 @@
 	margin: 10% 10%;
 }
 
+#selectBox {
+  margin: 10% auto;
+  width: 80%;
+}
+
 .optionList{
   background-color: #fff;
+  height: 200px;
   margin: 0 auto;
   padding: 0;
   position:absolute;

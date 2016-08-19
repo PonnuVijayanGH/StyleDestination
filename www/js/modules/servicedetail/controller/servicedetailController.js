@@ -1,4 +1,4 @@
-angular.module('sd-app.servicedetailController', [])
+angular.module('sd-app.servicedetail')
 
 .controller('ServiceDetailController', function($scope) {
 	$scope.doSomething = function() {
