@@ -6,6 +6,7 @@
     "ionic-platform-web-client": "^0.7.1"
   },
   "dependencies": {
-    "ionic-select-control": "^1.8.0"
+    "ionic-select-control": "^1.8.0",
+    "angular-mocks": "1.5.3"
   }
 }
